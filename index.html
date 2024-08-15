@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube clone</title>
+    <link href="./YouTube.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="lsection">
+                <button class="menu"><img class="menu-img" src="./images/menu.jpg"></button>
+                <a href="./index.html" class="yt-div"><img class="yt-img" src="./images/YouTube_logo_(2017).png"></a>
+            </div>
+            <div class="msection">
+                <div class="search-bar">
+                    <div class="search-container">
+                        <div class="search-input">
+                            <input class="input" type="text" placeholder="Search">
+                        </div>
+                    </div>
+                    <button class="search-icon">
+                        <img class="search-img" src="./images/search.png">
+                        <div class="tool-tip">Search</div>
+                    </button>
+    
+                </div>
+                <button class="mic">
+                    <img class="mic-img" src="./images/mic.png" alt="mic">
+                    <div class="tool-tip">Search with your voice</div>
+                </button>
+            </div>
+            <div class="rsection">
+                <div class="elements">
+                    <button class="create">
+                        <div class="create-div">
+                            <svg class="create-svg" xmlns="http://www.w3.org/2000/svg" height="24" style="pointer-events: none; display: inherit; width: 100%; height: 100%;" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true"><path d="M14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2zm3-7H3v12h14v-6.39l4 1.83V8.56l-4 1.83V6m1-1v3.83L22 7v8l-4-1.83V19H2V5h16z"></path></svg>
+                            <div class="tool-tip">Create</div>
+                        </div>
+                    </button>
+                    <button class="notification">
+                        <div class="noti-div">
+                            <svg class="notification-svg" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: inherit; width: 100%; height: 100%;" aria-hidden="true"><path d="M10 20h4c0 1.1-.9 2-2 2s-2-.9-2-2zm10-2.65V19H4v-1.65l2-1.88v-5.15C6 7.4 7.56 5.1 10 4.34v-.38c0-1.42 1.49-2.5 2.99-1.76.65.32 1.01 1.03 1.01 1.76v.39c2.44.75 4 3.06 4 5.98v5.15l2 1.87zm-1 .42-2-1.88v-5.47c0-2.47-1.19-4.36-3.13-5.1-1.26-.53-2.64-.5-3.84.03C8.15 6.11 7 7.99 7 10.42v5.47l-2 1.88V18h14v-.23z"></path></svg>
+                            <div class="tool-tip">Notification</div>
+                        </div>
+                        <div class="noti-count">3+</div>
+                    </button>
+                    <button class="profile"> 
+                        <img class="profile-img" src="images/profile.jpg">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="sidebar" >
+           <div class="sidebar-div">
+            <button class="home">
+                <div class="sd">
+                  <img src="./images/png-home-icon-10.png" class="home-img">
+                  <span class="sd-name">Home</span>
+                </div>
+            </button>
+            <button class="shorts">
+                <div class="sd">
+                    <img src="./images/shorts.png" class="shorts-img">
+                    <span class="sd-name">Shorts</span>
+                  </div>
+            </button>
+            <button class="sub">
+                <div class="sd">
+                    <img src="./images/subscription.png" class="sub-img">
+                    <span class="sd-name">Subscription</span>
+                </div>
+            </button>
+            <button class="you">
+                <div class="sd">
+                    <img src="./images/you.png" class="you-img">
+                    <span class="sd-name">You</span>
+                </div>
+            </button>
+        </div>
+        </div>
+    </nav>
+    <main>
+      <div class="body">
+            <div class="uppernav">
+            <div class="nav-div">
+                <div class="nav-div2">
+                    <button class="nav1">All</button>
+                    <button class="nav">Music</button>
+                    <button class="nav">Gaming</button>
+                    <button class="nav">Live</button>
+                    <button class="nav">Game show</button>
+                    <button class="nav">History</button>
+                    <button class="nav">Computer programming</button>
+                    <button class="nav">History</button>
+                    <button class="nav">Software Engineering</button>
+                    <button class="nav">Data Structures</button>
+                    <button class="nav">Recently Uploaded</button>
+                    <button class="nav">Watched</button>
+                    <button class="nav">New for you</button>
+                </div>
+                <div class="arrow-div">
+                    <div class="before-arrow"></div>
+                    <button class="arrow">
+                        <div class="right-arrow-div">
+                        <img class="right-arrow" src="./images/right-arrow.png" alt="arrow">
+                        <div class="tool-tip">Next</div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            </div>
+        
+            <div class="grid">
+                <a  href="https://youtu.be/DAadQsmMQcA?si=KhPPsfd5rvX9uqTW" class="video-div">
+                    <div class="thumbnail">
+                        <img class="thumbnail-img" src="images/doth.webp">
+                        <div class="time">30:15</div>
+                    </div>
+                    <div class="info">
+                        <div class="profile-pic">
+                            <img class="profile" src="images/doreamon.jpg">
+                        </div>
+                        <div class="video-info">
+                            <div class="vtitle">Doreamon New Episode 02-01-2024-Episode</div>
+                            <div class="short-info">
+                                <div class="cname">Mark Alow&#9834;</div>
+                                <div class="date-info">
+                                    <div class="views">5M views</div>
+                                    <div class="date">.1 month ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="dot">
+                            <img class="dot-img" src="./images/7066144.png">
+                        </button>
+                    </div>
+                </a>
+                <a href="https://youtu.be/QxddU3sjVRY?si=ffYdxCnmsSKfrcOB" class="video-div">
+                    <div class="thumbnail">
+                        <img class="thumbnail-img" src="images/download.webp">
+                        <div class="time">5:00</div>
+                    </div>
+                    <div class="info">
+                        <div class="profile-pic">
+                            <img class="profile" src="images/AUR.jpg">
+                        </div>
+                        <div class="video-info">
+                            <div class="vtitle">AUR-SHIKAYAT-Raffey-Usama-Ahad (Official Music Video)</div>
+                            <div class="short-info">
+                                <div class="cname">AUR &#9834;</div>
+                                <div class="date-info">
+                                    <div class="views">4.4M views</div>
+                                    <div class="date">.2 weeks ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="dot">
+                            <img class="dot-img" src="./images/7066144.png">
+                        </button>
+                    </div>
+
+                </a>
+                <a href="https://youtu.be/h-grthPvpB0?si=EyvXuQXpZv_kRnY9" class="video-div">
+                    <div class="thumbnail">
+                        <img class="thumbnail-img" src="images/hq720.webp">
+                        <div class="time">12:00</div>
+                    </div>
+                    <div class="info">
+                        <div class="profile-pic">
+                            <img class="profile" src="images/supersd.jpg">
+                        </div>
+                        <div class="video-info">
+                            <div class="vtitle">How to become a software engineer with no expericnce</div>
+                            <div class="short-info">
+                                <div class="cname">SuperSimpleDev</div>
+                                <div class="date-info">
+                                    <div class="views">461K views</div>
+                                    <div class="date">.2 years ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="dot">
+                            <img class="dot-img" src="./images/7066144.png">
+                        </button>
+                    </div>
+
+                </a>
+                <a href="https://youtu.be/yv-vt1KcHZg?si=9HaJ1tpaXSi8FShz" class="video-div">
+                    <div class="thumbnail">
+                        <img class="thumbnail-img" src="images/hq7200.webp">
+                        <div class="time">14:02</div>
+                    </div>
+                    <div class="info">
+                        <div class="profile-pic">
+                            <img class="profile" src="images/channels4_profile.jpg">
+                        </div>
+                        <div class="video-info">
+                            <div class="vtitle">इस 19 Years के Founder का Thought Process देख Aman ने कहा 'Hats Off' | Shark Tank India 2 | Pitches</div>
+                            <div class="short-info">
+                                <div class="cname">SET india</div>
+                                <div class="date-info">
+                                    <div class="views">681k views</div>
+                                    <div class="date">.5 months ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="dot">
+                            <img class="dot-img" src="./images/7066144.png">
+                        </button>
+                    </div>
+
+                </a>
+                <a href="https://youtu.be/7IKab3HcfFk?si=Gs05Wyt_oLYljEcj" class="video-div">
+                    <div class="thumbnail">
+                        <img class="thumbnail-img" src="images/hq820.webp">
+                        <div class="time">12:10</div>
+                    </div>
+                    <div class="info">
+                        <div class="profile-pic">
+                            <img class="profile" src="images/channels4.jpg">
+                        </div>
+                        <div class="video-info">
+                            <div class="vtitle">I Survived 50 Hours In Antarctica</div>
+                            <div class="short-info">
+                                <div class="cname">MrBeast</div>
+                                <div class="date-info">
+                                    <div class="views">207M views</div>
+                                    <div class="date">.1 year ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="dot">
+                            <img class="dot-img" src="./images/7066144.png">
+                        </button>
+                    </div>
+                    
+                </a>
+                <a href="https://youtu.be/25N0R1KnXVs?si=iOoVvbFARYBhmZZL" class="video-div">
+                    <div class="thumbnail">
+                        <img class="thumbnail-img" src="images/hq920.webp">
+                        <div class="time">25:38</div>
+                    </div>
+                    <div class="info">
+                        <div class="profile-pic">
+                            <img class="profile" src="images/unnamed.jpg">
+                        </div>
+                        <div class="video-info">
+                            <div class="vtitle">Lava vs Lasers - Which Is More Destructive?</div>
+                            <div class="short-info">
+                                <div class="cname">Mark Rober</div>
+                                <div class="date-info">
+                                    <div class="views">23M views</div>
+                                    <div class="date">.2 months ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="dot">
+                            <img class="dot-img" src="./images/7066144.png">
+                        </button>
+                    </div>
+                    
+                </a>
+                <a href="https://youtu.be/YLQErQRJHrE?si=4dY6y0Ev6yygbg7t" class="video-div">
+                    <div class="thumbnail">
+                        <img class="thumbnail-img" src="images/hq620.webp">
+                        <div class="time">18:09</div>
+                    </div>
+                    <div class="info">
+                        <div class="profile-pic">
+                            <img class="profile" src="images/channels4profile.jpg">
+                        </div>
+                        <div class="video-info">
+                            <div class="vtitle">Chef Sanjyot Ki Pav Bhaji! | @FarahKhanK</div>
+                            <div class="short-info">
+                                <div class="cname">Farah FarahKhan</div>
+                                <div class="date-info">
+                                    <div class="views">644k views</div>
+                                    <div class="date">.2 days ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="dot">
+                            <img class="dot-img" src="./images/7066144.png">
+                        </button>
+                    </div>
+                    
+                </a>
+                <a href="https://youtu.be/3UgGcjxS2sI?si=l0n17sS-Mbc9dzz1" class="video-div">
+                    <div class="thumbnail">
+                        <img class="thumbnail-img" src="images/hq520.webp">
+                        <div class="time">15:09</div>
+                    </div>
+                    <div class="info">
+                        <div class="profile-pic">
+                            <img class="profile" src="images/channels_profile.jpg">
+                        </div>
+                        <div class="video-info">
+                            <div class="vtitle">The Shocking Downfall of Big Bazaar</div>
+                            <div class="short-info">
+                                <div class="cname">Shivanshu Agrawal</div>
+                                <div class="date-info">
+                                    <div class="views">1.5M views</div>
+                                    <div class="date">.7 days ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="dot">
+                            <img class="dot-img" src="./images/7066144.png">
+                        </button>
+                    </div>
+                    
+                </a>
+                <a href="https://youtu.be/5puu3kN9l7c?si=pLX66PJS5OrEJ_M_" class="video-div">
+                    <div class="thumbnail">
+                        <img class="thumbnail-img" src="images/t1.webp">
+                        <div class="time">24:02</div>
+                    </div>
+                    <div class="info">
+                        <div class="profile-pic">
+                            <img class="profile" src="images/c1.jpg">
+                        </div>
+                        <div class="video-info">
+                            <div class="vtitle">Google CEO Sundar Pichai and the Future of AI | The Circuit</div>
+                            <div class="short-info">
+                                <div class="cname">Bloomberg Originals</div>
+                                <div class="date-info">
+                                    <div class="views">1.5M views</div>
+                                    <div class="date">.7 days ago</div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="dot">
+                            <img class="dot-img" src="./images/7066144.png">
+                        </button>
+                    </div>
+                    
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
