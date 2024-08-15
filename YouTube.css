@@ -566,10 +566,10 @@ right: -15px;
 }
 @media (max-width:449px) and (min-width:270px){
     .thumbnail{
-        height: 45%;
+        height: 55%;
     }
     .info{
-        height: 55%;
+        height: 45%;
     }
     .rsection{
         min-width: 225px;
@@ -655,6 +655,12 @@ right: -15px;
     }
 }
 @media (max-width:317px){
+    .thumbnail{
+        height: 55%;
+    }
+    .info{
+        height: 45%;
+    }
    .lsection{
     min-width: 116px;
    }
