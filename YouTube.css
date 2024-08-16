@@ -223,17 +223,17 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 22px;
-    padding: 0 4px;
+    border-radius: 8px;
+    padding: 0 3px;
     line-height: 16px;
     font-family: "Roboto", "Arial", sans-serif;
     font-weight: 400;
     color: white;
 
 }
-.profile{
-    height: 34px;
-    width: 60px;
+.profile-div{
+    height: 40px;
+    min-width: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -247,8 +247,9 @@ button{
         }
     }
 }
-.profile-img{
+.profile-image{
     height: 100%;
+    width: 100%;
     object-fit: contain;
     border-radius: 50%;
 }
@@ -613,12 +614,15 @@ right: -15px;
         left: 0;
     }
     .rsection{
-       min-width:140px;
+       min-width:116px;
 
     }
-   .create,.notification,.profile{
+   .create,.profile{
     margin: 0;
    }
+    .notification{
+    margin-right: 6px;
+    }
    .search-container{
     display: none;
    }
