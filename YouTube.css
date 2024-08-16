@@ -565,6 +565,10 @@ right: -15px;
     color: #606060;
     display: inline-block;
 }
+.date::before{
+    content: "\2022";
+    margin: 0 4px;
+}
 @media (max-width:449px) and (min-width:270px){
     .thumbnail{
         height: 55%;
