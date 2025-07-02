@@ -2,13 +2,9 @@
 
 This is a **static frontend clone** of the YouTube homepage, built using only **HTML** and **CSS**. It mimics the layout and design of YouTube’s user interface, focusing on styling and structure without any functional backend or interactivity.
 
----
-
 ## Demo
 
 https://swejal19.github.io/YouTube_clone/
-
----
 
 ## 🧩 Features
 <pre>
@@ -34,5 +30,5 @@ YouTube_clone/
 └── README.md          ← Project documentation
 </pre>
 ### 🛠️ Technologies Used
-HTML5 – Page structure and content
+HTML5 – Page structure and content<br>
 CSS3 – Styling, layout, and responsiveness (Flexbox)
